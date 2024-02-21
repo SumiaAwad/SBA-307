@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#Home">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+    <div id="Home">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, numquam excepturi! Excepturi nostrum, asperiores nobis maiores saepe pariatur numquam. Ipsa, quaerat. Eveniet velit ab dolorum perspiciatis, voluptatibus consequatur vero rem?
+
+    </div>
+    <div id="News">
+        <p>This is news</p>
+    </div>
+    <form action="#">
+        <label for="userName">User Name
+        <input type="text" name="userName" id="UserName" required />
+        </label>
+    <br>
+        <label for="password">Password
+        <input type="password" name="password" id="password" />
+        </label>
+        <fieldset>
+            <legend>Checkboxes</legend>
+            <label for="checkbox">Checkbox1
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            </label>
+            <label for="checkbox2">Checkbox2
+            <input type="checkbox" name="checkbox2" id="checkbox2" />
+            </label>
+            <label for="checkbox3">Checkbox3
+            <input type="checkbox" name="checkbox3" id="checkbox3" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Radio Buttons</legend>
+            <label>Radio1
+            <input type="radio" name="radio" id="radio1" />
+            </label><br>
+            <label>Radio2
+            <input type="radio" name="radio" id="radio2" />
+            </label><br>
+            <label>Radio3
+            <input type="radio" name="radio" id="radio3" />
+            </label>
+        </fieldset>
+        <form action="#">
+            <label>Choose a car:</label>
+            <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi" selected>Audi</option>
+            </select>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
